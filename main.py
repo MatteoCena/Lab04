@@ -1,4 +1,9 @@
 from crociera import Crociera
+from passeggeri import Passeggero
+from cabina import Cabina
+import csv
+from os.path import exists
+
 
 def menu():
     print(f'\n--- MENU CROCIERA ---')
